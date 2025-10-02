@@ -1188,7 +1188,7 @@ GameObject:
   - component: {fileID: 265393516}
   - component: {fileID: 265393515}
   m_Layer: 0
-  m_Name: Capsule
+  m_Name: Obstacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3453,7 +3453,7 @@ GameObject:
   - component: {fileID: 1041921452}
   - component: {fileID: 1041921451}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: JumpObstacle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
