@@ -42,7 +42,7 @@ public class Weapon : MonoBehaviour
 
     public void fire()
     {
-        if(canFire && !reloading && clip > 0 && weaponID >-1)
+        if (canFire && !reloading && clip > 0 && weaponID > -1)
         {
             weaponSpeaker.Play();
             GameObject p = Instantiate(projectile, firePoint.position, firePoint.rotation);
@@ -124,9 +124,6 @@ public class Weapon : MonoBehaviour
         reloading = false;
         canFire = true;
     }
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
+    
+    
